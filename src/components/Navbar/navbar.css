@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Briem+Hand:wght@100..900&family=Poetsen+One&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+nav {
+  color: rgb(72, 69, 69);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  border-radius: 50px;
+  background-color: #bfbae6;
+}
+
+.nav-lists .list {
+  list-style: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.nav-lists {
+  display: flex;
+  gap: 20px;
+  position: relative;
+}
+.logo {
+  cursor: pointer;
+  font-family: "Architects Daughter", cursive;
+  font-size: 20px;
+  letter-spacing: 0.2rem;
+}
+.list:hover {
+  color: #fff;
+}

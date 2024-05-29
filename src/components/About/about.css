@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Briem+Hand:wght@100..900&family=Crete+Round:ital@0;1&family=Poetsen+One&display=swap");
+.main {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 99;
+}
+/* .main::before {
+  content: "";
+  width: 800px;
+  height: 600px;
+  background-color: aquamarine;
+  position: absolute;
+
+  top: 0;
+
+  z-index: -1;
+} */
+.aboutDiv {
+  width: 600px;
+}
+.aboutDiv h2 {
+  text-align: center;
+  letter-spacing: 0.2rem;
+}
+.aboutDiv h2,
+.aboutDiv p {
+  font-family: "Crete Round", serif;
+}
+.aboutDiv p {
+  font-size: 20px;
+  text-align: justify;
+  letter-spacing: 0.1rem;
+}
